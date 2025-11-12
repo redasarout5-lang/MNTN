@@ -1,19 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
 /*RESET*/
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+     font-family: "Josefin Sans", sans-serif;
 }
-
 .supp-puce{
     list-style-type: none;
 }
 header{
-    background-image: url(asset/images/banniere3.png);
-    background-repeat:none;
-    background-position: top;
-    background-size: cover;
+    position: fixed;
+    width: 100%;
+    top: 30px;
+    align-items: center;
 }
 
 body{
@@ -32,9 +35,17 @@ body{
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
+    text-decoration: none;
 }
 
+ul{
+    list-style-type:none ;
+}
+
+h1{
+    font-size: 40px;
+}
 
 /*les classes fonctionnelles flex */
 
@@ -86,7 +97,7 @@ gap:12px;
 }
 
 .w-48{
-    width: 48%;
+    width: 40%;
 }
 
 .w-33{
@@ -106,11 +117,13 @@ gap:12px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.padding{
-    padding: 30px;
+
+.marginbotom100{
+    margin-bottom: 100px;
 }
-
-
+.padding{
+    padding: 20px 40px 20px 40px;
+}
 .container{
     max-width: 1000px;
     margin-left: auto;
@@ -131,4 +144,52 @@ gap:12px;
 .right{
     text-align: right;
     justify-content: space-between;
+}
+
+.yellow{
+    color: #FBD784;
+}
+
+.positionhead{
+    position: fixed;
+    gap: 450px;
+    top: 30px;
+}
+
+.gap230{
+    gap: 230px;
+}
+
+.textleft{
+    text-align: left;
+}
+
+.positionnav{
+    position: fixed;
+    top: 200px;
+    right: 10px;
+}
+
+.trt{
+    background-color: #FBD784;
+    height: 2px;
+    width: 80px;
+}
+
+.transparance{
+    color: rgba(255, 255, 255, 0,434);
+    font-size: 150px;
+    position:absolute;
+    top:-93px;
+    left: 0;
+}
+
+.relative{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.padding22{
+    padding-left: 80;
 }
